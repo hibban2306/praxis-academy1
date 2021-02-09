@@ -48,6 +48,7 @@ print("Insertion Sort :")
 insertion(list)
 '''
 '''
+#quick short
 def quickshort(a,start,end):
     if start<end:
         pindex = partition(a,start,end)
@@ -70,6 +71,7 @@ a = [68,90,78,44,34,20,100,56,34,2]
 quickshort(a,0,len(a)-1)
 '''
 '''
+#merge sort
 def mergesort(a):
     print('memecah',a)
     n=len(a)
