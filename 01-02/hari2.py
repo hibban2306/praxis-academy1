@@ -31,6 +31,7 @@ print(foo)
 print(bar)
 print(baz)
 '''
+
 foo = { 1: "Belajar", 2: "Python", 3: "di Duniailkom" }
 bar = { "mengapa": "Belajar", "apa": "Python", "dimana": "di Duniailkom" }
 baz = { 1: "Belajar", "apa": "Python", "dimana": "di Duniailkom" }
