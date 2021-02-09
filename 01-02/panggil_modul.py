@@ -1,4 +1,4 @@
 import modul
 a = modul.person1
 print(a)
-modul.greeting("hibban")
+modul.greeting("iban")
