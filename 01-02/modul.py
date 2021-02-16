@@ -1,5 +1,4 @@
-def greeting(siapa):
-    print ("hai," + siapa)
+
 
 person1 = {
     "nama": "hibban" ,
