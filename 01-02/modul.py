@@ -6,4 +6,4 @@ person1 = {
     "umur" : "21" ,
     "domisili" : "jogja"
 }
-pesan = {"semangat bercoding"}
+pesan = {"semangat bercoding"} 
