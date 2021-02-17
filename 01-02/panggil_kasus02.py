@@ -1,3 +1,4 @@
 import kasus02
-kasus02.bubble_short = a
+
+a = kasus02.hib
 print(a)

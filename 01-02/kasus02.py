@@ -1,17 +1,16 @@
-def bubble_short () :{
-
-    def hib(ban) :
-        iterasi = 0
-        for j in range (len(ban)-1):
-            for i in range(len(ban)-1-j):
-             if ban[i]>ban[i+1]:
-                    ban[i],ban[i+1]=ban[i+1],ban[i]
-         iterasi+=1
-         print(iterasi, ban)
-    ban = [9,17,2,42,1,7,3,4,67]
-    print('data yang akan di sort :' , ban)
-    print('bubble sort : ')
-    hib(ban) }
+#bubble_short():
+def hib(ban):
+    iterasi = 0
+    for j in range (len(ban)-1):
+        for i in range(len(ban)-1-j):
+            if ban[i]>ban[i+1]:
+                ban[i],ban[i+1]=ban[i+1],ban[i]
+        iterasi+=1
+        print(iterasi, ban)
+ban = [9,17,2,42,1,7,3,4,67]
+print('data yang akan di sort :' , ban)
+print('bubble sort : ')
+hib(ban)
 
 '''
 #selection short
